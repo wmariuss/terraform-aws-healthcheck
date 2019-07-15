@@ -14,7 +14,7 @@ module "healthcheck" {
   resource_path_list = ["/health", "/health"]
 
   // DNS
-  domain           = "idemia.io."
+  domain           = "marius.xyz."
   private_zone     = false
   routing_policy   = "failover"
   subdomain        = "app"
