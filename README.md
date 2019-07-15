@@ -12,4 +12,4 @@ Soon.
 
 ### Authors
 
-* [Marius Stanca](mailto:marius.stanca@idemia.com)
+* [Marius Stanca](mailto:me@marius.xyz)
