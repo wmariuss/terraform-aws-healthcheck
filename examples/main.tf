@@ -3,17 +3,17 @@ module "healthcheck" {
   profile       = "488687845015"
 
   // Healthcheck
-  name               = "epay-healthcheck"
-  fqdn_list          = ["healthcheck-cloud-01.staging.oberthur.net", "healthcheck-cloud-02.staging.oberthur.net"]
+  name               = "healthcheck"
+  fqdn_list          = ["healthcheck1.marius.xyz", "healthcheck2.marius.xyz"]
   port_list          = ["443", "443"]
   type_list          = ["HTTPS", "HTTPS"]
-  resource_path_list = ["/epay", "/epay"]
+  resource_path_list = ["/ping", "/ping"]
 
   // DNS
-  domain           = "dsa.idemia.io."
+  domain           = "marius.xyz"
   private_zone     = false
   routing_policy   = "failover"
-  subdomain        = "corsica-tsm-cloud"
-  primary_values   = ["corsica-tsm-cloud-01"]
-  secondary_values = ["corsica-tsm-cloud-02"]
+  subdomain        = "health"
+  primary_values   = ["health1"]
+  secondary_values = ["health2"]
 }

@@ -8,7 +8,7 @@ module "healthcheck" {
 
   // Healthcheck
   name               = "healthcheck-test"
-  fqdn_list          = ["healthcheck-1.idemia.io", "healthcheck-2.idemia.io"]
+  fqdn_list          = ["healthcheck-1.marius.xyz", "healthcheck-2.marius.xyz"]
   port_list          = ["443", "443"]
   type_list          = ["HTTPS", "HTTPS"]
   resource_path_list = ["/health", "/health"]
