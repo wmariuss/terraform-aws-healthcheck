@@ -1,5 +1,5 @@
 // terraform-aws-healthcheck module
-// Marius Stanca - me@marius.xyz, marius.stanca@idemia.com
+// Marius Stanca - me@marius.xyz
 
 terraform {
   required_version = ">= 0.11.8"
