@@ -1,6 +1,5 @@
 module "healthcheck" {
   source        = "../"
-  profile       = "488687845015"
 
   // Healthcheck
   name               = "healthcheck"
